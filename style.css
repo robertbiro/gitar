@@ -45,6 +45,10 @@ h2, h3{
     display: block;
 }
 
+.abra:hover {
+    transform: scale(1.3);
+}
+
 .gitar-lista {
     list-style: none;
 }
@@ -53,7 +57,7 @@ h2, h3{
     border: 1px solid darkgrey;
     border-radius: 8px;
     text-align: justify;
-    padding: 10 px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -67,7 +71,7 @@ h2, h3{
 }
 
 .gitar-kep-jobbra {
-    float: left;
+    float: right;
     margin: 0 15px 10px 20px;;
     width: 200px;
     height: auto;
@@ -77,4 +81,16 @@ h2, h3{
 
 .clear {
     clear: both;
+}
+
+.gitarmuveszek {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: left;
+    margin:  auto;
+}
+
+.gitarmuveszek td, th{
+    border: 1px solid #ccc;
+    padding: 10px;
 }
